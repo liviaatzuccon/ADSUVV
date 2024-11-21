@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinos Populares</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Destinos Populares</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="promocoes.html">Promoções e Ofertas</a>
+            <a href="dicas.html">Dicas de Viagem</a>
+            <a href="contatos.html">Contatos</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Confira os melhores destinos para sua viagem com desconto:</h2>
+        <section>
+            <h3>Paris</h3>
+            <p>Desconto especial para quem visita Paris no verão.</p>
+        </section>
+        <section>
+            <h3>Roma</h3>
+            <p>Aproveite ofertas exclusivas para Roma, incluindo passagens aéreas com 30% de desconto.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Blog de Viagens com Desconto - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
