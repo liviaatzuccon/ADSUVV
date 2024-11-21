@@ -6,12 +6,13 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    font-family: 'Roboto', sans-serif; /* Usando a fonte do Google Fonts */
+    background-color: #f9f9f9; /* Cor de fundo clara */
+    color: #333; /* Cor de texto */
     line-height: 1.6;
 }
 
+/* Container comum */
 .container {
     width: 80%;
     margin: 0 auto;
@@ -19,8 +20,8 @@ body {
 
 /* Header */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto */
     padding: 20px 0;
     text-align: center;
 }
@@ -36,15 +37,10 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-/* Home Page */
-.home {
-    padding: 40px 0;
-}
-
 /* Hero Section */
 .hero {
-    background: #ffcc00;
-    color: #fff;
+    background: #ffcc00; /* Cor de fundo vibrante */
+    color: #fff; /* Cor do texto */
     padding: 50px 0;
     text-align: center;
 }
@@ -77,11 +73,12 @@ header nav a:hover {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    gap: 20px; /* Espaçamento entre os cards */
 }
 
 .highlight-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #fff; /* Cor de fundo dos cards */
+    border: 1px solid #ddd; /* Borda sutil */
     padding: 20px;
     width: 30%;
     text-align: center;
@@ -91,13 +88,13 @@ header nav a:hover {
 }
 
 .highlight-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10px); /* Efeito de elevação ao passar o mouse */
 }
 
 .highlight-card img {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit: cover; /* Faz a imagem cobrir a área do card */
     border-radius: 8px;
     margin-bottom: 15px;
 }
@@ -127,8 +124,8 @@ header nav a:hover {
 
 /* Footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto */
     padding: 20px 0;
     text-align: center;
 }
